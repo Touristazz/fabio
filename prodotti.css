@@ -1,0 +1,146 @@
+.prodotti{
+
+
+  
+}
+
+/*     DESIGN CON HOVER      */
+.prodotti{
+  width: 100%;
+  height: 35%;
+display: flex;
+  
+}
+.prodotto-card {
+
+  background-color: #23442B;
+  border-radius: 2vh;
+  overflow: hidden;
+  width: 280px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.prodotto-card:hover {
+  transform: translateY(-5px);
+}
+
+.prodotto-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.prodotto-info {
+  padding: 20px;
+}
+
+.prodotto-info h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.prodotto-info p {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-bottom: 16px;
+}
+
+.prodotto-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prodotto-prezzo {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #D97832;
+}
+
+.prodotto-btn {
+  background: #D97832;
+  color: #2C1B0F;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.prodotto-btn:hover {
+  opacity: 0.85;
+}
+
+.prodotto-card1 {
+
+  background-color: #23442B;
+  border-radius: 2vh;
+  overflow: hidden;
+  width: 280px;
+  color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.prodotto-card:hover {
+  transform: translateY(-5px);
+}
+
+.prodotto-img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.prodotto-info {
+  padding: 20px;
+}
+
+.prodotto-info h3 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.prodotto-info p {
+  font-size: 0.9rem;
+  opacity: 0.85;
+  margin-bottom: 16px;
+}
+
+.prodotto-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.prodotto-prezzo {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: #D97832;
+}
+
+.prodotto-btn {
+  background: #D97832;
+  color: #2C1B0F;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.prodotto-btn:hover {
+  opacity: 0.85;
+}
+
+
+header nav ul li:hover::before{
+ background-size: 100% 2px;
+}
+
