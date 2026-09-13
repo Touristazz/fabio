@@ -29,7 +29,7 @@ body {
 .cicio {
   height: 76vh;
   width: 90vw;
-  position: absolute;
+  position: relative;
   background-color: rgb(0, 0, 0);
   border-radius: 2vh;
 }
@@ -47,7 +47,7 @@ body {
 .cicio h1 {
   font-size: 7vh;
   font-weight: 700;
-  position: relative;
+  position: absolute;
   left: 10%;
   top: 20%;
   width: fit-content;
